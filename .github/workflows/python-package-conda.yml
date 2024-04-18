@@ -4,8 +4,7 @@ on: [push]
 
 jobs:
   build-linux:
-    runs-on: 
-      labels: bog-h7hblx3
+    runs-on: [self-hosted, linux]
     strategy:
       max-parallel: 5
 
