@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: gmacastil/micro-sabado
+    sonarqube.org/project-key: micro-sabado
+  description: Repositorio en Python con flujos de trabajo de GitHub Actions
+  name: micro-sabado
+  tags:
+  - python
+  - githubactions
+spec:
+  lifecycle: production
+  owner: gmacastil
+  system: dummy
+  type: service
