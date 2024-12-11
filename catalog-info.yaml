@@ -15,23 +15,4 @@ spec:
   owner: gmacastil
   lifecycle: production
   system: discovery
-  providesApis:
-    - micro-sabado-api
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: micro-sabado-api
-  description: Repositorio en Python con flujos de trabajo de GitHub Actions
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-  tags:
-    - python
-    - githubactions
-spec:
-  type: openapi
-  owner: gmacastil
-  lifecycle: production
-  system: discovery
-  definition: 
-    $text: /docs/openapi.yaml
+
